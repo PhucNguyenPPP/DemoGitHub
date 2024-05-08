@@ -15,6 +15,7 @@ namespace BLL.Interface
         Task <bool> SignUpCustomer (SignUpCustomerDTOResquest model);
         byte[] GenerateSalt();
         byte[] GenerateHashedPassword(string password, byte[] saltBytes);
+        Task<Role?> GetCustomerRole1();
         User CheckUserExist(string email);
 
         Task<Role?> GetCustomerRole();
