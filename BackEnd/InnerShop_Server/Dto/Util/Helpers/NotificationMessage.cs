@@ -16,7 +16,7 @@
 
         public const string LoginSuccessfully = "Login successfully";
 
-        public const string LoginFailed = "Login failed";
+        public const string Goodbye = "Goodbye";
 
     }
 }
