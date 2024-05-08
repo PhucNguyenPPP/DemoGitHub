@@ -3,6 +3,7 @@
     public static class MessageErrorInRefreshToken
     {
         public const string TokenNotExistInDB = "Token does not exist in database";
+        
 
         public const string TokenInvalid = "Token is invalid by some factors";
 
